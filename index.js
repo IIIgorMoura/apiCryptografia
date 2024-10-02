@@ -3,6 +3,7 @@ const cors = require("cors");
 const crypto = require("crypto");
 const app = express();
 
+
 // Use a porta fornecida pelo ambiente do Replit ou 3000 para ambientes locais
 const port = process.env.PORT || 3000;
 
